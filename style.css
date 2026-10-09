@@ -1,1 +1,25 @@
 
+[data-theme="light"] {
+    --bg-color: #eef0f4;
+    --color: #333;
+    --togglebg: #333;
+    --roundcolor: #eef0f4;
+    --toggleslider: #111;
+    --togglesliderColor: #111;
+    --filter1: drop-shadow(-8px -8px 12px #ffffff)
+    drop-shadow(8px 8px 12px #c3c5c8);
+    --filter2: drop-shadow(-4px -4px 6px #ffffff) drop-shadow(4px 4px 6px #c3c5c8);
+    --filter3: drop-shadow(-2px -2px 3px #ffffff) drop-shadow(2px 2px 3px #c3c5c8);
+}
+
+[data-theme="dark"] {
+    --bg-color: #333e;
+    --color: #ccc;
+    --togglebg: #333;
+    --roundcolor: #1e1e1e;
+    --toggleslider: #eef0f4;
+    --togglesliderColor: #fff;
+    --filter1: drop-shadow(-8px -8px 12px #2c2c2c) drop-shadow(8px 8px 12px #000000);
+    --filter2: drop-shadow(-4px -4px 6px #2c2c2c) drop-shadow(4px 4px 6px #000000);
+    --filter3: drop-shadow(-2px -2px 3px #2c2c2c) drop-shadow(2px 2px 3px #000000);
+}
